@@ -14,7 +14,5 @@ end
 
 def move(board, index, char = "X")
   board[index] = char
-  # binding.pry
   board
-  binding.pry
 end
