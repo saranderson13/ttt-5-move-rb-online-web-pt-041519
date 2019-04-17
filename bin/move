@@ -11,4 +11,4 @@ index = input_to_index(user_input)
 
 updated_board = move(board, index)
 
-display_board(updated_board)
+# display_board(updated_board)
