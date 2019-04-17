@@ -8,9 +8,7 @@ puts "Welcome to Tic Tac Toe!"
 user_input = gets.chomp
 
 index = input_to_index(user_input)
-# binding.pry
 
 updated_board = move(board, index)
-# binding.pry
 
 display_board(updated_board)
